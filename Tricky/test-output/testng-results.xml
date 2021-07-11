@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[login succhttp://projects.qedgetech.com/webapp/dashboard.php http://projects.qedgetech.com/webapp/dashboard.php]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18963" started-at="2021-07-05T07:55:05Z" finished-at="2021-07-05T07:55:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18963" started-at="2021-07-05T07:55:05Z" finished-at="2021-07-05T07:55:24Z">
+      <class name="LiveProject.LoginStockAcooPropEx">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:LiveProject.LoginStockAcooPropEx@5ae9a829]" name="setUP" is-config="true" duration-ms="12362" started-at="2021-07-05T13:25:05Z" finished-at="2021-07-05T13:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginSA()[pri:0, instance:LiveProject.LoginStockAcooPropEx@5ae9a829]" name="loginSA" duration-ms="4830" started-at="2021-07-05T13:25:18Z" finished-at="2021-07-05T13:25:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login succhttp://projects.qedgetech.com/webapp/dashboard.php http://projects.qedgetech.com/webapp/dashboard.php]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginSA -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LiveProject.LoginStockAcooPropEx@5ae9a829]" name="tearDown" is-config="true" duration-ms="1696" started-at="2021-07-05T13:25:23Z" finished-at="2021-07-05T13:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LiveProject.LoginStockAcooPropEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
